@@ -12,8 +12,6 @@ const QUICKNODE_HTTP_URL = process.env.Mainnet;
 
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
 
-
-
 module.exports = {
   solidity: {
     compilers: [{
@@ -40,13 +38,7 @@ module.exports = {
       chainId: 31337,
       gasPrice: "auto",
       forking: {
-        
-        // url: `https://polygon-mainnet.g.alchemy.com/v2/8JkHo3qUxg6xK4OpBBG7XrfND3pZL0ig`,
-        url:QUICKNODE_HTTP_URL,
-        //   url: `https://bsc-dataseed1.binance.org/`,
-        // url : "https://wiser-wider-valley.bsc.discover.quiknode.pro/050ea5d25ccade9d764fac15bd4709b810d543a1/"
-        //url : "https://eth-goerli.g.alchemy.com/v2/j0MMbBOrmZmaqGwY81ztrumG-SERiDm7"
-        
+        url:QUICKNODE_HTTP_URL,   
       }
     }, 
     // goerli: {
@@ -57,10 +49,10 @@ module.exports = {
     //   url:``,
     //   accounts: [`0x${process.env.PRIVATE_KEY}`],
     // },
-    // sepolia: {
-    //   url: QUICKNODE_HTTP_URL,
-    //   accounts: [PRIVATE_KEY],
-    //   gasPrice: "auto",
-    // },
-  },
+    mainnet: {
+      url:QUICKNODE_HTTP_URL,
+      accounts: [PRIVATE_KEY],
+      gasPrice: "auto",
+    },
+  }
 };

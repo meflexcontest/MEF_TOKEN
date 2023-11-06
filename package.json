@@ -1,12 +1,11 @@
 {
-  "name": "botpeg",
+  "name": "Done By MohsinAliSolangi",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "npx hardhat run scripts/deploy.js --network localhost",
-    "fork": "npx hardhat node --fork https://eth-mainnet.g.alchemy.com/v2/Ifpcb1RsTu2OJGHhKUdxhHMq8tJIv12s"
+    "deploy": "npx hardhat run scripts/deploy.js --network localhost"
   },
   "author": "",
   "license": "ISC",
