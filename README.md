@@ -1,6 +1,6 @@
-# Sample Hardhat Project
+# MEFLEX Smart Contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates ERC-20 token contract for Meflex. It comes with a ERC-20 contract, a test for that contract, and a script that deploys that contract.
 
 Try running some of the following tasks:
 
